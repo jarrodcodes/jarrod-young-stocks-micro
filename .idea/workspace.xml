@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47842bbd-1fd2-43b0-8f20-17fee93f6182" name="Default Changelist" comment="">
+    <list default="true" id="47842bbd-1fd2-43b0-8f20-17fee93f6182" name="Default Changelist" comment="add client">
+      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/AddStock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/JarrodView.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/StockCard.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/StocksView.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/WebSocket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="Play2ProjectSettings">
     <option name="LANGUAGE_IMPORTS">
@@ -118,10 +119,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Scala Compiler" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Play 2 App.Play 2">
     <configuration name="Play 2" type="Play2FrameworkRunConfigurations" factoryName="Play 2 App" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
@@ -236,6 +238,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="4746498502293" />
         <entry key="$PROJECT_DIR$/build.sbt" value="20127842" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1134086237" />
         <entry key="$PROJECT_DIR$/project/plugins.sbt" value="1511103772" />
@@ -276,11 +279,29 @@
       <workItem from="1583369443472" duration="14199000" />
       <workItem from="1583421415409" duration="964000" />
       <workItem from="1583425057174" duration="1125000" />
+      <workItem from="1583426705396" duration="116000" />
+      <workItem from="1583426844962" duration="22000" />
+      <workItem from="1583426869526" duration="244000" />
     </task>
+    <task id="LOCAL-00001" summary="add client">
+      <created>1583426767119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583426767120</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/client" />
+    </ignored-roots>
+    <MESSAGE value="add client" />
+    <option name="LAST_COMMIT_MESSAGE" value="add client" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="234" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583370847514">
@@ -291,6 +312,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1583302581667" />
+    <state x="303" y="64" key="CommitChangelistDialog2" timestamp="1583426879552">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="303" y="64" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1583426879552" />
     <state x="97" y="123" width="1240" height="677" key="DiffContextDialog" timestamp="1583375399391">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -335,10 +360,14 @@
     </state>
     <state width="1398" height="276" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1583424927442" />
     <state width="1398" height="276" key="GridCell.Tab.1.right/0.23.1920.1177/-1920.23.1920.1177@0.23.1920.1177" timestamp="1583421462360" />
-    <state x="221" y="63" key="SettingsEditor" timestamp="1583335644262">
+    <state x="221" y="63" key="SettingsEditor" timestamp="1583426857802">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="221" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1583335644262" />
+    <state x="221" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1583426857802" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583426789056">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1583426789056" />
     <state x="57" y="140" width="1240" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583425443409">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -347,11 +376,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1583302604689" />
-    <state x="374" y="225" width="1022" height="486" key="find.popup" timestamp="1583424887945">
+    <state x="374" y="225" width="1022" height="486" key="find.popup" timestamp="1583426992018">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="374" y="207" width="980" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1583285915718" />
-    <state x="374" y="225" width="1022" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1583424887945" />
+    <state x="374" y="225" width="1022" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1583426992018" />
     <state x="383" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1583426094932">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
