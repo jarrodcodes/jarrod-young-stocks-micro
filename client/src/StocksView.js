@@ -24,14 +24,23 @@ class StocksView extends React.Component {
     }
 
     render() {
-
-        return (
-            Object.values(stocks).map(value => {
-                console.log(value);
-                return (
-                    <StockCard {...value} />
-                )
-            })
+        if (Object.keys(stocks).length !== 0 && stocks.constructor === Object) {
+            return (
+                Object.values(stocks).map(value => {
+                    console.log(value);
+                    return (
+                        <StockCard {...value} />
+                    )
+                })
+            )
+        } else return (
+            <div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                Loading...
+            </div>
         )
     }
 }

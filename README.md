@@ -8,4 +8,4 @@ in Terminal run "sbt run"
 Frontend:
 Install npm
 in Terminal cd to /client and run "npm install"
-run "npm run"
+run "npm start"
