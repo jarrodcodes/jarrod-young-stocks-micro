@@ -1,0 +1,141 @@
+2020-03-05 11:35:50,834 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-6 - Slf4jLogger started
+2020-03-05 11:35:50,835 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-6 - logger log1-Slf4jLogger started
+2020-03-05 11:35:50,837 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-6 - Default Loggers started
+2020-03-05 11:35:50,852 [DEBUG] from akka.serialization.Serialization(akka://application) in application-akka.actor.default-dispatcher-6 - Replacing JavaSerializer with DisabledJavaSerializer, due to `akka.actor.allow-java-serialization = off`.
+2020-03-05 11:35:50,854 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [akka.serialization.jackson.AkkaJacksonModule]
+2020-03-05 11:35:50,854 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [akka.serialization.jackson.AkkaTypedJacksonModule]
+2020-03-05 11:35:50,854 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [akka.serialization.jackson.AkkaStreamJacksonModule]
+2020-03-05 11:35:50,854 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.module.paramnames.ParameterNamesModule]
+2020-03-05 11:35:50,855 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.datatype.jdk8.Jdk8Module]
+2020-03-05 11:35:50,855 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.datatype.jsr310.JavaTimeModule]
+2020-03-05 11:35:50,857 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.module.scala.DefaultScalaModule]
+2020-03-05 11:35:50,859 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [akka.serialization.jackson.AkkaJacksonModule]
+2020-03-05 11:35:50,859 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [akka.serialization.jackson.AkkaTypedJacksonModule]
+2020-03-05 11:35:50,859 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [akka.serialization.jackson.AkkaStreamJacksonModule]
+2020-03-05 11:35:50,859 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.module.paramnames.ParameterNamesModule]
+2020-03-05 11:35:50,859 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.datatype.jdk8.Jdk8Module]
+2020-03-05 11:35:50,859 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.datatype.jsr310.JavaTimeModule]
+2020-03-05 11:35:50,861 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.module.scala.DefaultScalaModule]
+2020-03-05 11:35:51,101 [WARN] from play.filters.headers.SecurityHeadersConfig in play-dev-mode-akka.actor.default-dispatcher-5 - play.filters.headers.contentSecurityPolicy is deprecated in 2.7.0.  Please use play.filters.csp.CSPFilter instead.
+2020-03-05 11:35:51,107 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-5 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2020-03-05 11:35:51,115 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-5 - Application started (Dev) (no global state)
+2020-03-05 11:35:51,185 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-6 - actor [akka://application/user/rootActor] received message: Create(1,Actor[akka://application/temp/$a#0])
+2020-03-05 11:35:51,189 [INFO] from actors.RootActor$ in application-akka.actor.default-dispatcher-6 - Creating user actor userActor-1 with default stocks List(GOOG, SBUX, T, BNED)
+2020-03-05 11:35:51,212 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-6 - actor [akka://application/user/stocksActor] received message: GetStocks(Set(GOOG, SBUX, T, BNED),Actor[akka://application/temp/$b#0])
+2020-03-05 11:35:51,221 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-8 - Adding stock Stock(GOOG)
+2020-03-05 11:35:51,236 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-8 - Adding stock Stock(SBUX)
+2020-03-05 11:35:51,238 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-8 - Adding stock Stock(T)
+2020-03-05 11:35:51,239 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-8 - Adding stock Stock(BNED)
+2020-03-05 11:35:51,246 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:51,246 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:51,246 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:51,246 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:51,535 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:51,535 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:51,535 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:51,535 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:51,554 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:51,561 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:51,571 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:51,580 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:51,587 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:51,592 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:51,592 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:51,596 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:51,597 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:51,606 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:51,607 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:51,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:51,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:51,644 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:51,644 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:51,650 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:51,650 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:51,652 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:51,654 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:51,658 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:51,663 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:51,667 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:51,680 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:51,685 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:51,687 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:51,689 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:51,690 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:51,690 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:51,696 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:51,697 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:51,701 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:51,705 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:51,710 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:51,716 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:51,717 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:51,721 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:51,726 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:51,729 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:51,737 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:51,737 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:54,677 [DEBUG] from akka.http.impl.util.StreamUtils$DelayCancellationStage$$anon$11 in play-dev-mode-akka.actor.default-dispatcher-9 - Delaying cancellation for 1 minute
+2020-03-05 11:35:54,680 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-12 - Stopping actor Actor[akka://application/user/rootActor/userActor-1#1995895943]
+2020-03-05 11:35:54,759 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-9 - New connection accepted
+2020-03-05 11:35:54,768 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-10 - actor [akka://application/user/rootActor] received message: Create(2,Actor[akka://application/temp/$c#0])
+2020-03-05 11:35:54,768 [INFO] from actors.RootActor$ in application-akka.actor.default-dispatcher-10 - Creating user actor userActor-2 with default stocks List(GOOG, SBUX, T, BNED)
+2020-03-05 11:35:54,771 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-11 - actor [akka://application/user/stocksActor] received message: GetStocks(Set(GOOG, SBUX, T, BNED),Actor[akka://application/temp/$d#0])
+2020-03-05 11:35:54,771 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-11 - Adding stock Stock(GOOG)
+2020-03-05 11:35:54,772 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-11 - Adding stock Stock(SBUX)
+2020-03-05 11:35:54,773 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-13 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:54,773 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-11 - Adding stock Stock(T)
+2020-03-05 11:35:54,775 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:54,778 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-11 - Adding stock Stock(BNED)
+2020-03-05 11:35:54,778 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:54,779 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:54,819 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:54,820 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:54,830 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:54,830 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-13 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:54,862 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:54,864 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:54,869 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:54,872 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-13 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:54,875 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:54,875 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:54,903 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:54,912 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:54,914 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-13 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:54,918 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:54,918 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:54,921 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-13 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:54,921 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:54,927 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-13 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:54,927 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:54,939 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:54,939 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-13 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:54,945 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-13 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:54,945 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:54,962 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:54,962 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:54,962 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-13 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:54,970 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:54,970 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:54,970 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:54,983 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:54,983 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-13 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:54,983 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:54,983 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=T
+2020-03-05 11:35:54,989 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:54,989 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-13 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:54,996 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:55,009 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:55,027 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:55,027 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:55,029 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-13 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-03-05 11:35:55,033 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:55,038 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=BNED
+2020-03-05 11:35:55,072 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:55,079 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=SBUX
+2020-03-05 11:35:55,291 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-12 - Stopping actor Actor[akka://application/user/rootActor/userActor-2#967221399]
+2020-03-05 11:35:55,293 [DEBUG] from akka.http.impl.util.StreamUtils$DelayCancellationStage$$anon$11 in play-dev-mode-akka.actor.default-dispatcher-5 - Delaying cancellation for 1 minute

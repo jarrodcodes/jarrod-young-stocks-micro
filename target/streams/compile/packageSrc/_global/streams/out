@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/jarrod_young/Downloads/play-samples-2.8.x/play-scala-websocket-example/target/scala-2.13/play-scala-websocket-example_2.13-1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jarrod_young/Downloads/play-samples-2.8.x/play-scala-websocket-example/conf/logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jarrod_young/Downloads/play-samples-2.8.x/play-scala-websocket-example/conf/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jarrod_young/Downloads/play-samples-2.8.x/play-scala-websocket-example/conf/routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Module.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jarrod_young/Downloads/play-samples-2.8.x/play-scala-websocket-example/app/Module.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	stocks/Stock.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jarrod_young/Downloads/play-samples-2.8.x/play-scala-websocket-example/app/stocks/Stock.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	actors/UserActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jarrod_young/Downloads/play-samples-2.8.x/play-scala-websocket-example/app/actors/UserActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	actors/UserParentActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jarrod_young/Downloads/play-samples-2.8.x/play-scala-websocket-example/app/actors/UserParentActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	actors/StocksActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jarrod_young/Downloads/play-samples-2.8.x/play-scala-websocket-example/app/actors/StocksActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/StockController.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jarrod_young/Downloads/play-samples-2.8.x/play-scala-websocket-example/app/controllers/StockController.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

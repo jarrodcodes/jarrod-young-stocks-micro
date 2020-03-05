@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47842bbd-1fd2-43b0-8f20-17fee93f6182" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/AddStock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/JarrodView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/StockCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/StocksView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/WebSocket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="play-scala-websocket-example" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="play-scala-websocket-example" type="f1a62948:ProjectNode" />
+                <item name="play-scala-websocket-example" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="play-scala-websocket-example" type="f1a62948:ProjectNode" />
+                <item name="play-scala-websocket-example" type="2d1252cf:ModuleNode" />
+                <item name="sbt commands" type="5c424813:SbtViewContributor$SbtCommandsGroupNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="play-scala-websocket-example" type="f1a62948:ProjectNode" />
+                <item name="play-scala-websocket-example-build" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="play-scala-websocket-example" type="f1a62948:ProjectNode" />
+                <item name="play-scala-websocket-example-build" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+  </component>
+  <component name="Play2ProjectSettings">
+    <option name="LANGUAGE_IMPORTS">
+      <array>
+        <option value="_root_.play.twirl.api.Txt" />
+        <option value="play.api.templates.PlayMagic._" />
+        <option value="_root_.play.twirl.api.Xml" />
+        <option value="_root_.play.twirl.api.JavaScript" />
+        <option value="_root_.play.twirl.api.Html" />
+        <option value="_root_.play.twirl.api.TwirlHelperImports._" />
+        <option value="_root_.play.twirl.api.TwirlFeatureImports._" />
+      </array>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1YdvZBGDzOIwY61SyasvsCINgs1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Scala Compiler" />
+  </component>
+  <component name="RunManager" selected="Play 2 App.Play 2">
+    <configuration name="Play 2" type="Play2FrameworkRunConfigurations" factoryName="Play 2 App" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="jarrod-young-stocks-micro" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="enableSbtGlobalPlugins" value="false" />
+      <option name="play2EnvVariables">
+        <map />
+      </option>
+      <option name="play2IsNonDefaultInstallDirUsed" value="false" />
+      <option name="play2JpdaPort" value="9999" />
+      <option name="play2JvmOptions">
+        <array>
+          <option value="-Xms512M" />
+          <option value="-Xmx1024M" />
+          <option value="-Xss1M" />
+          <option value="-XX:+CMSClassUnloadingEnabled" />
+          <option value="-XX:MaxPermSize=256M" />
+        </array>
+      </option>
+      <option name="play2NeedOpenInBrowser" value="true" />
+      <option name="play2NonDefaultInstallDir" value="" />
+      <option name="play2OpenUrl" value="http://localhost:9000" />
+      <option name="play2isAutoReloadEnabled" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="play-scala-websocket-example" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="javaOptions" value="-Djline.terminal=NONE" />
+      <option name="myConsoleArgs" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionalSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="play-scala-websocket-example" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="controllers.FunctionalSpec" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScalaTests in 'controllers'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="play-scala-websocket-example" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Play 2 App.Play 2" />
+        <item itemvalue="Scala REPL.Scala REPL" />
+        <item itemvalue="ScalaTest.FunctionalSpec" />
+        <item itemvalue="ScalaTest.ScalaTests in 'controllers'" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="jarrod-young-stocks-micro" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/Users/jarrod_young/Desktop/jarrod-young-stocks-micro/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="jarrod-young-stocks-micro-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="20127842" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1134086237" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="1511103772" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/aaa-stream-engine-query-micro" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/aaa-stream-event-processor-micro" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/cic-base-sbt-plugin" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/cic-domain-lib" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/cic-stream-automation-processor-micro" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/cic-stream-enricher-micro" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/cic-stream-external-post-processor-micro" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/cic-stream-initial-counter-micro" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/cic-stream-notification-processor-micro" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/cic-stream-search-alert-ingest-micro" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/cic-stream-transformer-micro" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/cic-stream-window-evaluator-micro" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/shared-lts-ingest-micro" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/shared-lts-query-micro" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47842bbd-1fd2-43b0-8f20-17fee93f6182" name="Default Changelist" comment="" />
+      <created>1583285339018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583285339018</updated>
+      <workItem from="1583285341271" duration="16374000" />
+      <workItem from="1583302109085" duration="497000" />
+      <workItem from="1583302612340" duration="5946000" />
+      <workItem from="1583369443472" duration="14199000" />
+      <workItem from="1583421415409" duration="964000" />
+      <workItem from="1583425057174" duration="1125000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="234" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583370847514">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="458" y="234" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.877@0.23.1440.877" timestamp="1583370847514" />
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583302581667">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1583302581667" />
+    <state x="97" y="123" width="1240" height="677" key="DiffContextDialog" timestamp="1583375399391">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="97" y="123" width="1240" height="677" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1583375399391" />
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1583424927449">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583424927449" />
+    <state width="1398" height="276" key="GridCell.Tab.0.bottom/0.23.1920.1177/-1920.23.1920.1177@0.23.1920.1177" timestamp="1583421462359" />
+    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1583424927449">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1583424927449" />
+    <state width="1398" height="276" key="GridCell.Tab.0.center/0.23.1920.1177/-1920.23.1920.1177@0.23.1920.1177" timestamp="1583421462357" />
+    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1583424927448">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1583424927448" />
+    <state width="1398" height="276" key="GridCell.Tab.0.left/0.23.1920.1177/-1920.23.1920.1177@0.23.1920.1177" timestamp="1583421462357" />
+    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1583424927449">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1583424927449" />
+    <state width="1398" height="276" key="GridCell.Tab.0.right/0.23.1920.1177/-1920.23.1920.1177@0.23.1920.1177" timestamp="1583421462358" />
+    <state width="1398" height="276" key="GridCell.Tab.1.bottom" timestamp="1583424927443">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="276" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583424927443" />
+    <state width="1398" height="276" key="GridCell.Tab.1.bottom/0.23.1920.1177/-1920.23.1920.1177@0.23.1920.1177" timestamp="1583421462361" />
+    <state width="1398" height="276" key="GridCell.Tab.1.center" timestamp="1583424927442">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="276" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1583424927442" />
+    <state width="1398" height="276" key="GridCell.Tab.1.center/0.23.1920.1177/-1920.23.1920.1177@0.23.1920.1177" timestamp="1583421462360" />
+    <state width="1398" height="276" key="GridCell.Tab.1.left" timestamp="1583424927442">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="276" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1583424927442" />
+    <state width="1398" height="276" key="GridCell.Tab.1.left/0.23.1920.1177/-1920.23.1920.1177@0.23.1920.1177" timestamp="1583421462360" />
+    <state width="1398" height="276" key="GridCell.Tab.1.right" timestamp="1583424927443">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="276" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1583424927442" />
+    <state width="1398" height="276" key="GridCell.Tab.1.right/0.23.1920.1177/-1920.23.1920.1177@0.23.1920.1177" timestamp="1583421462360" />
+    <state x="221" y="63" key="SettingsEditor" timestamp="1583335644262">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="221" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1583335644262" />
+    <state x="57" y="140" width="1240" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583425443409">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="57" y="140" width="1240" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1583425443409" />
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583302604689">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1583302604689" />
+    <state x="374" y="225" width="1022" height="486" key="find.popup" timestamp="1583424887945">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="374" y="207" width="980" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1583285915718" />
+    <state x="374" y="225" width="1022" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1583424887945" />
+    <state x="383" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1583426094932">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="383" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1583426094932" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/StocksView.js</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/StocksView.js</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/JarrodView.js</url>
+          <line>16</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/StockCard.js</url>
+          <line>29</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/StocksView.js</url>
+          <line>28</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/actors/RootActor.scala</url>
+          <line>37</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/controllers/StockController.scala</url>
+          <line>35</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/model/Stock.scala</url>
+          <line>21</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+[error] /Users/jarrod_young/Desktop/jarrod-young-stocks-micro/conf/routes:5:1: value index is not a member of controllers.StockController
+[error] GET        /                 controllers.StockController.index
+[error] one error found
